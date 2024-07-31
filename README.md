@@ -18,5 +18,5 @@ I attached for each operation a binary value so it very clear when an instructio
 
 during this projects I learned a lot about integration between number of components with one clock and parallel operation that need to work simultaneous.
 I almost complete the projects I need to write the code for the I/O operation and to change the program to check it..(just need to extand the state machine)
-I already checked subtraction operation and expanding 16bit to 32bit operation by tacking two Subsequent addresses.
-if you have any quation about the code or the structure of the compter write me.
+
+there is two programs on the memory on of subtraction between two numbers and the other is an extantion from 16bit to 32bit of addition operation.
