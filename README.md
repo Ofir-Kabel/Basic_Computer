@@ -1,22 +1,47 @@
-# Basic_Computer(without I/O)
+# Morris Mano Basic Computer in VHDL
 
-I worte a VHDL code for the basic computer Morris Mano is representing in his book "computer system architecture"
-the computer structure:
-computer
--Memory 16x4096
--CPU
---control unit : includes control legs of the registers,Alu,Bus and the state machine of the instruction code
---common Bus system : include registers,ALU and the Bus line
+This project implements a basic computer system as described in Morris Mano's book **"Computer System Architecture"** using VHDL. The computer architecture includes memory, a CPU with a control unit, and a common bus system.
 
-the computer work on FSM machine
-1.fetch
-2.decode
-3.indirect/direct
-4.operation..
+## Project Overview
 
-I attached for each operation a binary value so it very clear when an instruction is exicute on the simulation and so on.. 
+The goal of this project is to design and simulate a simple computer system based on the architecture presented by Morris Mano. This includes:
 
-during this projects I learned a lot about integration between number of components with one clock and parallel operation that need to work simultaneous.
-I almost complete the projects I need to write the code for the I/O operation and to change the program to check it..(just need to extand the state machine)
+- **Memory:** 16x4096 memory size.
+- **CPU:** Comprising a control unit and ALU.
+  - **Control Unit:** Manages the control signals for registers, the ALU, the bus, and the state machine for instruction execution.
+  - **Common Bus System:** Integrates registers, the ALU, and the bus line to facilitate data transfer.
 
-there is two programs on the memory on of subtraction between two numbers and the other is an extantion from 16bit to 32bit of addition operation.
+## Finite State Machine (FSM)
+
+The computer operates using a finite state machine with the following stages:
+
+1. **Fetch:** Retrieve the next instruction from memory.
+2. **Decode:** Interpret the instruction to determine required operations.
+3. **Indirect/Direct:** Decide the addressing mode and retrieve data if necessary.
+4. **Operation:** Execute the instruction using the ALU and other components.
+
+Each operation is associated with a binary value, making it clear during simulation when an instruction is executed.
+
+## Features and Learnings
+
+During this project, I learned:
+
+- How to integrate multiple components with a single clock signal.
+- Managing parallel operations that need to execute simultaneously.
+- The importance of a structured approach to FSM design in controlling complex operations.
+
+## Current Status
+
+The project is almost complete. The following tasks are pending:
+
+- Implementing I/O operations to allow data exchange between the computer and external devices.
+- Extending the state machine to handle new instructions and test programs.
+
+## Installation and Setup
+
+To run this project:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/morris-mano-basic-computer-vhdl.git
