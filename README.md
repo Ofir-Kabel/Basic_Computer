@@ -26,7 +26,7 @@ Each operation is associated with a binary value, making it clear during simulat
 
 ### Simulation 1: Initialization Phase
 
-![Simulation Result 1](images/simulation1.png)
+![Simulation Result 1](https://github.com/user-attachments/assets/859aa880-7b5a-4a44-a16f-f0792a3910e6)
 
 *Explanation:*
 - **State (מצב):** Displays the current state of the instruction cycle.
@@ -36,7 +36,7 @@ Each operation is associated with a binary value, making it clear during simulat
 
 ### Simulation 2: Instruction Fetch and Decode
 
-![Simulation Result 2](images/simulation2.png)
+![Simulation Result 2](https://github.com/user-attachments/assets/820e7eb2-a386-41b2-8f1a-6c8018c18b43)
 
 *Explanation:*
 - **PC (מונה פקודות):** Program Counter showing the sequence of instruction fetch.
@@ -45,7 +45,7 @@ Each operation is associated with a binary value, making it clear during simulat
 
 ### Simulation 3: Execute and Write Back
 
-![Simulation Result 3](images/simulation3.png)
+![Simulation Result 3](https://github.com/user-attachments/assets/16ebb330-e352-422d-a41f-29defc9435cf)
 
 *Explanation:*
 - **ALU Operations (פעולות אלוגיות):** Indicates operations performed by the ALU.
