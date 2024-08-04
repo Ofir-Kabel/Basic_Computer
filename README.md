@@ -22,6 +22,45 @@ The computer operates using a finite state machine with the following stages:
 
 Each operation is associated with a binary value, making it clear during simulation when an instruction is executed.
 
+## Simulation
+
+### Simulation 1: Initialization Phase
+
+![Simulation Result 1](images/simulation1.png)
+
+*Explanation:*
+- **State (מצב):** Displays the current state of the instruction cycle.
+- **on_Bus (משותף):** Indicates which component is sharing data on the common bus.
+- **Alu_op (פעולה):** Shows the operation being executed by the Arithmetic Logic Unit.
+- **MDIFF (תוצאה):** Memory register used to store the result of a subtraction operation.
+
+### Simulation 2: Instruction Fetch and Decode
+
+![Simulation Result 2](images/simulation2.png)
+
+*Explanation:*
+- **PC (מונה פקודות):** Program Counter showing the sequence of instruction fetch.
+- **IR (רשם פקודה):** Instruction Register displaying the current instruction.
+- **Bus Activity (פעילות על האוטובוס):** Data flow across the system bus.
+
+### Simulation 3: Execute and Write Back
+
+![Simulation Result 3](images/simulation3.png)
+
+*Explanation:*
+- **ALU Operations (פעולות אלוגיות):** Indicates operations performed by the ALU.
+- **Memory Write (כתיבה לזיכרון):** Shows data being written back to memory.
+- **Register Updates (עדכון רשם):** Updates in register values post-operation.
+
+These simulations provide a detailed view of how instructions are fetched, decoded, and executed. Key aspects include:
+
+- **Reset (rst):** The reset signal to initialize the system.
+- **Clock (clk):** The clock signal controlling the operation of the FSM.
+- **Instruction Register (IR_reg):** Holds the current instruction being executed.
+- **Program Counter (PC_reg):** Points to the next instruction in memory.
+- **Memory Address Register (MAR):** Contains the address of the current memory operation.
+- **Data Bus (Bus):** Shows the data being transferred between components.
+
 ## Features and Learnings
 
 During this project, I learned:
